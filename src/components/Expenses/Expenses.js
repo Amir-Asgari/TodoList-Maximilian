@@ -16,7 +16,15 @@ const Expenses = (props) => {
     return expense.date.getFullYear().toString() === filteredYear;
   });
 
-  let expensesContent = <p>No expenses found.</p>;
+  let expensesContent = <h3
+    style={{
+      color: "white",
+      width: "220px", 
+      marginLeft: "20px",
+       border: "dashed red 2px",
+       borderRadius:"5px",
+       padding:"10px"
+    }}>No expenses found.</h3>;
 
   if (filteredExpenses.length > 0) {
     expensesContent = filteredExpenses.map((expense) => (
