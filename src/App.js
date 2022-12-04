@@ -23,6 +23,37 @@ const DUMMY_EXPENSES = [
     amount: 450,
     date: new Date(2021, 5, 12),
   },
+
+  {
+    id: 'e5',
+    title: 'A Book (real)',
+    amount: 50,
+    date: new Date(2019, 9, 1),
+  },
+  {
+    id: 'e6',
+    title: 'Coffe mixed',
+    amount: 45,
+    date: new Date(2022, 10, 12),
+  },
+  {
+    id: 'e7',
+    title: 'Chair ',
+    amount: 170,
+    date: new Date(2022, 2, 29),
+  },
+  {
+    id: 'e8',
+    title: 'Iphone (14 proMax)',
+    amount: 1450,
+    date: new Date(2022, 11, 11),
+  },
+  {
+    id: 'e9',
+    title: 'Airpod (pro)',
+    amount: 750,
+    date: new Date(2022, 11, 11),
+  },
 ];
 
 const App = () => {
