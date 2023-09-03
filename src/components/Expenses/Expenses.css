@@ -4,4 +4,10 @@
     margin: 2rem auto;
     width: 50rem;
     max-width: 95%;
+    text-decoration: none;
+  }
+
+  li {
+    text-decoration: none;
+    list-style: none;
   }
